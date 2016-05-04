@@ -1,5 +1,8 @@
-
 <?php
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: database.php
+// Description: This is the code designed to connect to the mysql database.
 global $db;
 $debug = true;
 

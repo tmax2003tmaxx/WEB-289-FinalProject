@@ -1,5 +1,11 @@
 <?php 
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: loginFunctions.php
+// Description: This is the code designed to add a new member to the database and the code for the Admin to change the price of a product.
 
+
+// add_user retrieves the users information and adds to to the members database.
 function add_user($fName, $lName, $email, $address, $userLevel, $password, $phone) {
 
     global $db;
@@ -21,6 +27,8 @@ function add_user($fName, $lName, $email, $address, $userLevel, $password, $phon
     
 }
 
+
+// new_price retrieves the product id and the new price from the form and makes the change in the database.
 function new_price($product_id, $price) {
     global $db;
     $query = 'UPDATE products
