@@ -1,3 +1,9 @@
+<!-- 
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: register_customer.php
+// Description: This is the code designed to register a new member to the site. 
+-->
 <br>
 <form id="signUp" name="frmUser" method="post" action="index.php?action=add_user">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>

@@ -1,3 +1,9 @@
+<!--
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: services.php
+// Description: This is the code designed to show the visitors some of the servies that are offered.
+-->
 <h1 class="main">Welcome to Bake My Day!</h1>
 <div id="weddings">
   <h3>Wedding Cake Designing</h3>

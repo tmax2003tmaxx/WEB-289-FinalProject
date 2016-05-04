@@ -1,4 +1,8 @@
 <?php
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: index.php
+// Description: This is the code designed to control the user as the navigate the website.
 include 'view/header.php';
 require('model/database.php');
 include 'model/loginFunctions.php';

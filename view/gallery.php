@@ -1,3 +1,9 @@
+<!--
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: gallery.php
+// Description: This is the code designed to display the thumbnails and show that specific image when clicked.
+-->
 <br><br>
 	<div id="gallery">
 	<div id="photoshow">

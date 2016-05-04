@@ -1,5 +1,9 @@
 <h2 class="menu">Admin Menu</h2>
 <?php
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: buyHappinessAdmin.php
+// Description: This is the code designed to display the table to a user logged in as an Admin.
 $message="";
 $conn = mysql_connect("mysql5.000webhost.com","a6185815_cody","maggie1234");
 mysql_select_db("a6185815_bmd",$conn);

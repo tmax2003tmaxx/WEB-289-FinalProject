@@ -1,5 +1,9 @@
 <?php
 session_start();
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: bmdLogin.php
+// Description: This is the code designed to log the user in. 
 $message="";
 if(count($_POST)>0) {
 $conn = mysql_connect("mysql5.000webhost.com","a6185815_cody","maggie1234");

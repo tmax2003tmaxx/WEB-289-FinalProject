@@ -1,5 +1,9 @@
 <?php 
 session_start();
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: header.php
+// Description: This is the code designed to serve as the beginning of every html page. 
  ?>
  <!doctype html>
 <head>

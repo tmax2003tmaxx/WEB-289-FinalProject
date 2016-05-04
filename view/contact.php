@@ -1,4 +1,9 @@
-
+<!--
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: contact.php
+// Description: This is the code designed to show any visitor multiple ways to get in touch with the business.
+-->
 <h1 id="">Way's to get the party started</h1>
 
 

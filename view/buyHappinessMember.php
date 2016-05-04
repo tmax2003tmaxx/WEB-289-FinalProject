@@ -1,6 +1,9 @@
 <h2 class="menu">Menu</h2>
 <?php
-// session_start();
+// Author: Cody Mogensen
+// Revision Date: 05/04/2016
+// File Name: buyHappinessMember.php
+// Description: This is the code designed to display the products table to anyone logged in as a member.
 $message="";
 $conn = mysql_connect("mysql5.000webhost.com","a6185815_cody","maggie1234");
 mysql_select_db("a6185815_bmd",$conn);
