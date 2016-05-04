@@ -1,0 +1,112 @@
+Folder PATH listing
+Volume serial number is 06C0-032B
+C:.
+|   index.php
+|   wireframe1.txt
+|   
++---Assets
+|       database_final.sql
+|       wireframe.txt
+|       
++---css
+|       style.css
+|       
++---fonts
+|   |   jennasue-webfont.eot
+|   |   jennasue-webfont.svg
+|   |   jennasue-webfont.ttf
+|   |   jennasue-webfont.woff
+|   |   jennasue-webfont.woff2
+|   |   JennaSue.ttf
+|   |   sc_manipulative_lovers_demo-webfont.eot
+|   |   sc_manipulative_lovers_demo-webfont.svg
+|   |   sc_manipulative_lovers_demo-webfont.ttf
+|   |   sc_manipulative_lovers_demo-webfont.woff
+|   |   sc_manipulative_lovers_demo-webfont.woff2
+|   |   stylesheet.css
+|   |   stylesheet1.css
+|   |   
+|   +---lovers
+|   |       SC Manipulative Lovers Demo.otf
+|   |       SC Manipulative Lovers Demo.ttf
+|   |       thumb.jpg
+|   |       
+|   \---specimen_files
+|           grid_12-825-55-15(1).css
+|           grid_12-825-55-15.css
+|           specimen_stylesheet(1).css
+|           specimen_stylesheet.css
+|           
++---img
+|   |   BFast.jpg
+|   |   BG.jpg
+|   |   bg.png
+|   |   bg1.png
+|   |   bluecake.jpg
+|   |   Blushing Apple.jpg
+|   |   carrot.jpg
+|   |   cellar1.jpg
+|   |   cellar2.jpg
+|   |   cellar3.jpg
+|   |   cupcake.jpg
+|   |   EvanturtleBack.jpg
+|   |   eventcellar.jpg
+|   |   facebook.ico
+|   |   facebook.jpg
+|   |   facebook.png
+|   |   fallLeaf.jpg
+|   |   header.png
+|   |   header.psd
+|   |   Logo.png
+|   |   NBG.jpg
+|   |   newBG.jpg
+|   |   oreocake.jpg
+|   |   plateddessert.JPG
+|   |   pudding.jpg
+|   |   purpleCupcake1.jpg
+|   |   purpleCupcake2.jpg
+|   |   rachelsCake.jpg
+|   |   shortcake.jpg
+|   |   Smpurplecc.jpg
+|   |   thumbtack.jpg
+|   |   thumbtack.png
+|   |   wcupcakes.jpg
+|   |   whiskeyhazelnuttiramisu.JPG
+|   |   
+|   \---thumbs
+|           BFast.jpg
+|           bluecake.jpg
+|           carrot.jpg
+|           cellar1.jpg
+|           cellar3.jpg
+|           cupcake.jpg
+|           fallLeaf.jpg
+|           rachelCake.jpg
+|           shortcake.jpg
+|           Smpurplecc.jpg
+|           wcupcakes.jpg
+|           
++---js
+|       jquery-1.11.1.js
+|       jquery.validate.js
+|       project7.js
+|       
++---model
+|       database.php
+|       database_error.php
+|       functions.php
+|       
+\---view
+        bmdLogin.php
+        buyHappiness.php
+        buyHappinessAdmin.php
+        buyHappinessMember.php
+        contact.php
+        footer.php
+        gallery.php
+        header.php
+        home.php
+        logout.php
+        register_customer.php
+        services.php
+        

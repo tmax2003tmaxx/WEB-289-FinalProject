@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'sc_manipulative_loversdemo';
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot');
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff2') format('woff2'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff') format('woff'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.ttf') format('truetype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.svg#sc_manipulative_loversdemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('../fonts/jennasue-webfont.eot');
+    src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jennasue-webfont.woff2') format('woff2'),
+         url('../fonts/jennasue-webfont.woff') format('woff'),
+         url('../fonts/jennasue-webfont.ttf') format('truetype'),
+         url('../fonts/jennasue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url("../img/NBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+	background: rgba(237,232,236, 0.85);
+	margin: 10px auto 100%;
+	width: 80%;
+	padding-bottom: 10px;
+	color: white;
+	position: relative;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 46px 0px rgba(224,143,224,1);
+	-moz-box-shadow: 0px 0px 46px 0px rgba(224,143,224,1);
+	box-shadow: 0px 0px 46px 0px rgba(219,200,215,1);
+}
+
+#navbar {
+	height: 50px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+#navbar li {
+	width: 19%;
+	text-align: center;
+	display:inline-block;
+	border-right: 1px solid #fff;
+}
+
+#navbar li:last-child {
+	border-right: none;
+}
+
+#navbar a {
+	font-size: 16px;
+	font-style: italic;
+	color: #f5f8b5;	
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+}
+
+#logIn {
+	position: absolute;
+	list-style: none;
+	padding: 7px 10px 10px 10px;
+	right: 10px;
+}
+
+#logIn a {
+	color: black;
+}
+
+.main {
+	font: 50px 'jenna_sueregular';
+}
+
+#wrapper h1+p {
+	line-height: 2em;
+	font-size: 18px;
+	padding: 10px 25px;
+	text-align: center;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrapper h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #000;
+}
+
+#wrapper h2 {
+	 text-align: center;
+}
+
+
+h4+p {
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000;
+}
+
+h3 {
+	margin-top: 5px;
+	text-align: center;
+	color: #000;
+}
+
+h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #000;
+}
+
+#weddingCake {
+	width: 50%;
+	margin: 20px auto;
+	display: block;
+
+}
+
+#appitizer {
+	width: 90%;
+	margin: 20px auto 0;
+	display: block;
+
+}
+
+#gallery {
+	text-align: center;
+}
+
+/* style the thumbnails */
+
+#thumbs {
+	list-style: none;
+	padding: 0 20% 20px;
+	margin: 0 auto 20px;
+	border-bottom: 2px solid #333;
+	}
+	
+#thumbs li {
+	width: 25%;
+	display: inline-block;
+	margin: 0 -10px;
+}
+	
+#thumbs li a img {
+	border: 1px dashed #000;
+	background: #fff;
+	opacity: .6;
+	width: 70%;
+}
+	
+#thumbs li a img:hover {
+	opacity: 1;
+	}
+
+/* style the big main image and caption */	
+#galleryBig {
+	width: 80%;
+	border: 4px solid #333;
+	padding: 2px;
+	background: #666;
+}
+	
+#caption {
+	font: bold 18px georgia, times, serif;
+	background: rgba(255,255,255,.7);
+	position: relative;
+	top: -3em;
+	padding: 5px;
+}
+
+#photoShow {
+	border: 3px double #333;
+	padding: 10px;
+	background: #ccc;
+}
+
+#photoShow img {
+	border: 1px solid #333;
+    position:absolute;
+    z-index: 0;
+}
+
+#photoShow img.previous {
+    z-index: 1;
+}
+
+#photoShow img.current {
+    z-index: 2;
+}
+
+#contactMe {
+	padding: 7px;
+	margin-top: 30px;
+	text-align: center;
+	color: #000;
+}
+
+.widget {
+	padding: 5px;
+	display: inline-block;
+    margin-top: 15px;
+}
+
+
+a[href="mailto:apieforstrength@gmail.com"] {
+	color:#000;
+}
+
+#signUp {
+	padding-top: 7px;
+	margin-left: 7%;
+}
+
+#newMember {
+	padding: 28px 10px 0;
+}
+
+.hide, .adminHide, .adminhide, .memberHide {
+	display: none;
+}
+
+table {
+	margin: 15px auto;
+}
+
+#memberTable {
+	margin: 0 auto;
+	padding:0 5px;
+	border-spacing: 8px;
+}
+
+#adminTable {
+	margin: 0 auto;
+	padding:0 10px;
+	border-spacing: 10px;
+}
+
+.tableheader {
+	background-color: #95BEE6;
+	color:white;
+	font-weight:bold;
+}
+
+.tablerow {
+	background-color: #A7D6F1;
+	color:white;
+}
+
+#memberTable td {
+	font-size: 12pt;
+	text-align: center;
+	padding: 2px;
+	color: black;
+	border-bottom: .5px dashed black;
+}
+
+#memberTable th {
+	color: black;
+	padding: 3px 0;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 12pt;
+	border-bottom: .5px dashed black;
+}
+
+#adminTable td {
+	font-size: 13pt;
+	text-align: center;
+	color: black;
+	border-bottom: .5px dashed black;
+}
+
+#adminTable th {
+	color: black;
+	padding: 3px 0;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20pt;
+	border-bottom: .5px dashed black;
+}
+
+.message {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.menu {
+	padding-left: 7%;
+ 	padding-top: 30px;
+ 	font-style: italic;
+ 	font-weight: 300;
+ 	font-size: 240%;
+ 	color: black;
+ }
+ 
+#construction {
+	padding: 10px 20%;
+} 
+
+#contactMe > a:nth-child(6) > img {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	padding: 12px;
+	display: block;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+}
+
