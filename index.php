@@ -3,9 +3,9 @@
 // Revision Date: 05/04/2016
 // File Name: index.php
 // Description: This is the code designed to control the user as the navigate the website.
-include 'view/header.php';
-require('model/database.php');
-include 'model/loginFunctions.php';
+include_once 'view/header.php';
+require_once('model/database.php');
+include_once 'model/loginFunctions.php';
 
 
 $action = filter_input(INPUT_POST, 'action');
