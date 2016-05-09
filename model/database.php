@@ -14,7 +14,7 @@ $host_location = "local";
 } else {
 $dsn = 'mysql:host=mysql5.000webhost.com;dbname=a6185815_bmd';
 $username = 'a6185815_cody';
-$password = 'maggie1234';
+$password = '';
 $host_location = "remote";
 }
 
