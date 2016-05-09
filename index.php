@@ -37,7 +37,6 @@ switch( $action ) {
     case 'services':
         include_once ('view/services.php');
     break;
-
     case 'buyHappiness':
 
         if (isset($_SESSION["f_name"]) && ($_SESSION["userLevel"] == 'Admin')){
@@ -49,7 +48,6 @@ switch( $action ) {
         }
 
     break;
-
     case 'user_dashboard':
         include_once ('view/user_dashboard.php');
     break;
